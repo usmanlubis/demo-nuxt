@@ -1,5 +1,11 @@
 <template>
-  <HeaderComponent></HeaderComponent>
+  <div>
+    <HeaderComponent></HeaderComponent>
+    <main>
+      <h1>Welcome</h1>
+    </main>
+    <FooterComponent></FooterComponent>
+  </div>
 </template>
 
 <script>
@@ -9,5 +15,21 @@
 </script>
 
 <style>
+  *,
+  *::before,
+  *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
+  body {
+    background-color: #282A35;
+    min-height: 100vh;
+    padding-bottom: 40px;
+  }
+
+  main {
+    color: whitesmoke;
+  }
 </style>
