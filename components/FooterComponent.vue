@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>&copy; {{ new Date().getFullYear() }} Usman Lubis - All rights reserved. Made with Nuxt3</p>
+    <p>&copy; {{ new Date().getFullYear() }} <a href="https://github.com/usmanlubis" target="_blank" class="footer-link">Usman Lubis</a> - All rights reserved. Made with Nuxt3</p>
   </footer>
 </template>
 
@@ -21,5 +21,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .footer-link {
+    color: unset;
   }
 </style>
